@@ -4,6 +4,7 @@
     min-height: 50vh;
     padding-bottom: 6vh;
     width: 35vw;
+    min-width: 700px;
     background-color: #e3e3e3;
     text-align: center;
     margin-left: auto;
@@ -17,6 +18,7 @@
 
   .container {
     width: 30vw;
+    min-width: 600px;
     margin-left: auto;
     margin-right: auto;
   }
