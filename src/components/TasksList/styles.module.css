@@ -1,0 +1,22 @@
+.main {
+  position: relative;
+    height: auto;
+    min-height: 50vh;
+    padding-bottom: 6vh;
+    width: 35vw;
+    background-color: #e3e3e3;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .h1 {
+    font-size: 70px;
+    margin-bottom: 10px;
+  }
+
+  .container {
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+  }

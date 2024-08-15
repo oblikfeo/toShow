@@ -1,0 +1,55 @@
+.input {
+    display: none;
+}
+
+.label {
+    position: relative;
+    cursor: pointer;
+    padding-left: 30px;
+}
+
+.label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 11px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #363636;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.input:checked + label:before {
+    background: #ffffff;
+}
+
+.label:after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: -5px;
+    width: 16px;
+    height: 28px;
+    border: 1px solid #26aa26;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    opacity: 0;
+    transition: opacity 0.6s;
+}
+
+.input:checked + label:after {
+    opacity: 1;
+}
+
+.task {
+    display: flex;
+    padding-left: 10px;
+    font-size: 40px;
+    border: 1px solid black;
+    margin-right: auto;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+  }
